@@ -42,8 +42,9 @@ O nível do herói é determinado com base nesta tabela oficial:
 
 ```
 Entrada
-nome ← "Mulher Maravilha"
+nomeHeroi ← "Hércules"
 xp ← 3500
+nível ← " "
 
 Estrutura de decisão
 SE xp < 1000:
@@ -63,13 +64,13 @@ nível ← "Imortal"
 SENÃO:
 nível ← "Radiante"
 Saída
-Exibir: "A heróina Mulher Maravilha  está no nível Prata"
+Exibir: "O herói de nome Hércules está no nível de Prata"
 ```
 
 ## 🚀 Resultado Esperado
 
 O programa deve apresentar uma mensagem no seguinte formato:
 
-> **"O herói `<nome>` está no nível `<nível>`"**
+> **"O herói de nome`<nome>` está no nível de `<nível>`"**
 
 ---
