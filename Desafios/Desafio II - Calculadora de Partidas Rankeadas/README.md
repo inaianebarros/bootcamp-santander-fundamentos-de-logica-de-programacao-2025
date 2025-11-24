@@ -44,7 +44,7 @@ Criar um programa que:
 
 ### Entrada
 
-```json
+```txt
 vitorias ← 75
 derrotas ← 20
 saldo ← vitorias - derrotas
@@ -53,7 +53,7 @@ nivel ← " "
 
 ### Função de Classificação (encapsulada)
 
-```json
+```txt
 função classificarJogador(vitorias):
 
     SE vitorias < 10:
@@ -74,7 +74,7 @@ função classificarJogador(vitorias):
 
 ### Função Principal
 
-```json
+```txt
 função calcularRank(vitorias, derrotas):
 
     saldo ← vitorias - derrotas
