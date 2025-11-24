@@ -42,7 +42,7 @@ O nível do herói é determinado com base nesta tabela oficial:
 
 ### Entrada
 
-```json
+```txt
 nomeHeroi ← "Hércules"
 xp ← 3500
 nível ← " "
@@ -50,7 +50,7 @@ nível ← " "
 
 ### Estrutura de decisão
 
-```json
+```txt
 SE xp < 1000:
 nível ← "Ferro"
 SENÃO SE xp ≤ 2000:
@@ -71,7 +71,7 @@ nível ← "Radiante"
 
 ### Saída
 
-```json
+```txt
 Exibir: "O herói de nome Hércules está no nível de Prata"
 ```
 
