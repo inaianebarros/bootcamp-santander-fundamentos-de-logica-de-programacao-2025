@@ -28,7 +28,7 @@ O nível do herói é determinado com base nesta tabela oficial:
 | Faixa de XP    | Nível             |
 | -------------- | ----------------- |
 | Menos de 1.000 | ⚙️ **Ferro**      |
-| 1.001 – 2.000  | 🛡️ **Bronze**     |
+| 1.001 – 2.000  | 🥉 **Bronze**     |
 | 2.001 – 5.000  | ⚔️ **Prata**      |
 | 5.001 – 7.000  | 🏆 **Ouro**       |
 | 7.001 – 8.000  | 💠 **Platina**    |
@@ -40,13 +40,17 @@ O nível do herói é determinado com base nesta tabela oficial:
 
 ## 🧩 Exemplo de Lógica (pseudocódigo)
 
-```
-Entrada
+### Entrada
+
+```json
 nomeHeroi ← "Hércules"
 xp ← 3500
 nível ← " "
+```
 
-Estrutura de decisão
+### Estrutura de decisão
+
+```json
 SE xp < 1000:
 nível ← "Ferro"
 SENÃO SE xp ≤ 2000:
@@ -63,7 +67,11 @@ SENÃO SE xp ≤ 10000:
 nível ← "Imortal"
 SENÃO:
 nível ← "Radiante"
-Saída
+```
+
+### Saída
+
+```json
 Exibir: "O herói de nome Hércules está no nível de Prata"
 ```
 
